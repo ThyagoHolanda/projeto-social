@@ -35,9 +35,21 @@ body{
     flex-direction: column;
     /* justify-content: space-between; */
     gap: 5%;
+    /* border: 1px solid black; */
+    margin: 10px;
+    width: 55px;
 }
 
 img {
     width: 50px;
     border-radius: 50%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.500);
+    transition: transform 0.5s, border 0.5s;
+}
+
+img:hover{
+    transform: translateX(-5px) translateY(-5px);
+    border: 2px solid white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.500);
+
 }
